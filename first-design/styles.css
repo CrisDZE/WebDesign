@@ -1,0 +1,85 @@
+.firstDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.firstDiv p{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.firstDiv div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstDiv div p{
+    font-weight: normal;
+    font-size: medium;
+    margin: 5px;
+}
+
+.secondDiv{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.secondDiv div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 400px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    max-width: 30%;
+}
+
+.secondDiv div p{
+    max-width: 100%;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.secondDiv div p:nth-child(2){
+    margin-top: 0;
+    font-size: medium;
+    font-weight: normal;
+    display: block;
+}
+
+.secondDiv div button {
+    background-color: #3B82F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+}
+
+.secondDiv div:nth-child(2){
+    background-color: #6D747D;
+    color: white;
+    align-items: center;
+    padding: 100px;
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+.thirdDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    
+}
